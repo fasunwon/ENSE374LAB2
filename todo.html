@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href ="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="interactive.js"></script>
+    <title>To Do List</title>
+</head>
+<body>
+
+<br><br>
+<form action="login.html">
+    <div class="panel-group" id="accordion">
+      
+        <div style="width:30%; position:relative; left:35% "class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="color:blue">Logged in as username@somewhere.ca</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">
+                  <div class="text-center">
+                    <button type="submit" style="width:100%" class="btn btn-primary">Logout</button>
+                  </div>
+                  
+            </div>
+          </div>
+        </div>
+    </form>
+    <br><br>
+
+
+<div class="align">
+    <div class="contain">
+      <form>
+          <ul id="tasks">
+              
+              <div id="test"class="input-group">
+                <span class="input-group-addon"><input type="checkbox" checked></span>
+                <p class="form-control"><strike>My finished task</strike></p>
+              </div>
+            
+              <div id="test"class="input-group">
+                <span class="input-group-addon"><input type="checkbox" ></span>
+                <p class="form-control">My finished task</p>
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">Abandon</button>
+                </div>
+              </div>
+            
+
+            
+              <div id="test"class="input-group">
+                <p style="border-radius: 4px;" class="form-control"><strike>Someone else's finished</strike></p>
+              </div>
+            
+    
+            
+              <div id="test"class="input-group">
+                <p style="border-radius: 4px;" class="form-control">Someone else's unfinished</p>
+              </div>
+            
+              
+            
+              <div id="test"class="input-group">
+                <p class="form-control">Unclaimed</ip>
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">claim</button>
+                </div>
+              </div>
+            
+    
+        </ul>
+             
+              <div id="another"class="input-group">
+                <input type="text" class="form-control" placeholder="Enter a new task here" id="newtask" >
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit" id="btn1">Add</button>
+                </div>
+              </div>
+    
+              <div id="buttonalign" class="text-center">
+                <button type="submit" style="margin-left: auto; margin-right: auto;" class="btn btn-default" id="btn2" disabled>Remove complete</button>
+              </div>
+      </form>
+    </div>
+</div>
+</body>
+</html>

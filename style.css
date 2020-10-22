@@ -1,0 +1,45 @@
+body{
+    background-color:gray;
+}
+#test
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:97%;
+    margin-top: 3%;
+    
+}
+#buttonalign
+{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.contain
+{
+    width:50%;
+    background-color: rgb(200, 208, 216);
+    border-radius: 5px;
+   
+}
+ul
+{
+    list-style-type: none;
+    position: relative;
+    right:4%;
+} 
+.strike
+{
+    text-decoration: line-through;
+}
+.align
+{
+    display: flex;
+    justify-content: center;
+}
+#another
+{
+    position: relative;
+    left:3.7%;
+    width:91.1%;
+    margin-top: 3%;
+}
